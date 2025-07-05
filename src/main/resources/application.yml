@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: hexagonal-student-backend
+
+  jackson:
+    time-zone: UTC
+    default-property-inclusion: non_null        # Return non null filed
+    serialization:
+      indent-output: true                       # Indent the JSON for best readability
+    property-naming-strategy: SNAKE_CASE        # Converts property names to snake_case (LastName -> last_name)
+
+  datasource:
+    url: ${DB_HOST}
+    username: ${DB_USER}
+    password: ${DB_PASS}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    org.hibernate.sql: debug
+
+
+server:
+  port: 8089

@@ -1,3 +1,7 @@
+
+![Screenshot 2025-07-07 165320](https://github.com/user-attachments/assets/f3958398-97e7-43d5-b181-1ebbb3fe7b31)
+
+
 # Student RESTful API (Hexagonal Architecture) <img src="https://github.com/user-attachments/assets/85abb686-eebf-4dce-aebb-1e833ea9d0df" alt="React" width="30" height="30">
 
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
